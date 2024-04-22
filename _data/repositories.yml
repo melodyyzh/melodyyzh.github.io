@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - melodyyzh
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - glotzerlab/hoomd-blue
+  - LindseyLab-umich/chimes_lsq-LLfork
+  - melodyyzh/General_Utilities
+  - melodyyzh/MC_sim
+  - melodyyzh/MD_Ar_LAMMPS
