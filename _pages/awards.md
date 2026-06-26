@@ -1,26 +1,30 @@
 ---
 layout: page
 title: Awards
-description: A list of awards and recognitions I have received.
+description:
 permalink: /awards/
 nav: true
-nav_order: 7
+nav_order: 5
 ---
 
-<div class="awards">
-  {% for award in site.awards %}
-    <div class="award">
-      <h3 class="award-title">{{ award.title }}</h3>
-      <div class="award-details">
-        <span class="award-organization">{{ award.organization }}</span> &middot;
-        <span class="award-date">{{ award.date | date: "%B %Y" }}</span>
-      </div>
-      {% if award.description %}
-        <div class="award-description">
-          {{ award.description | markdownify }}
-        </div>
-      {% endif %}
-    </div>
-    <hr>
-  {% endfor %}
-</div>
+## 2026
+
+- **Empowering Research with AI Award** — AI Institutes at Michigan (AIIM)
+
+## 2025
+
+- **Best Overall Poster Award** — U-M Annual Data Science & AI Summit
+- **MICDE Fellowship** — Michigan Institute for Computational Discovery & Engineering
+- **2nd Place** — Business+Tech Datathon
+
+## 2021
+
+- **1st Place, Undergraduate Research Conference** — Purdue College of Engineering
+- **Research Grant** — Office of Undergraduate Research
+- **Women in Engineering Program Scholarship** — Purdue University
+- **Stephen Craig Outstanding Junior Award** — Purdue Chemical Engineering
+- **AstraZeneca Rising Star Award** — For initiative, innovation, and productivity
+
+## 2018
+
+- **Best Data & Evidence Award** — Recycling Bin Separation Design

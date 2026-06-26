@@ -3,7 +3,7 @@ layout: page
 title: Gallery
 description: A collection of my favorite images and figures.
 permalink: /gallery/
-nav: true
+nav: false
 nav_order: 5
 ---
 
