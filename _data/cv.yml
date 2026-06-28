@@ -2,96 +2,137 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Melody Yiyuan Zhang
+    - name: Email
+      value: yiyuanmz@umich.edu
+    - name: Research Areas
+      value: Machine-Learned Interaction Models, Coarse-Grained Nanomaterials, Molecular Simulation, Scientific Computing
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Chemical Engineering and Scientific Computing
+      institution: University of Michigan, Ann Arbor, MI
+      year: 2022 - 2027 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 3.86"
+        - "Advisors: Prof. Rebecca K. Lindsey and Prof. Sharon C. Glotzer"
+    - title: B.S. in Chemical Engineering
+      institution: Purdue University, West Lafayette, IN
+      year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.82"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Student Research Assistant
+      institution: Lindsey Group & Glotzer Group, University of Michigan
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Extended the machine-learned interaction model (ML-IAM), ChIMES, to describe how effective interactions between polymer-grafted nanoparticles depend on key physicochemical attributes, and integrated the model with digital alchemy inverse design for efficient optimization of particle attributes towards target self-assembled structures.
+        - Designed a generalized ML-IAM framework that models anisotropic interactions for nanoparticles with convex shapes, enabling broad applicability to nanomaterial systems.
+        - Developed an adaptive parallel meshing algorithm for training data generation that reduces required data volume by ~100x by focusing on key features of the target potential energy surface.
+        - Contributed to the development and improvement of state-of-the-art machine-learning and simulation software, including ChIMES, HOOMD-Blue, and Freud.
+    - title: Undergraduate Research Assistant
+      institution: Dou Group, Purdue University
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Modified the surface of formamidinium-based perovskites using synthesized ligands to passivate defects and kinetically trap the photovoltaic crystal phase.
+        - Incorporated amine-thiol chemistry in the perovskite layer and achieved a power conversion efficiency (PCE) of 20.1% and improved stability under ambient conditions.
+        - Streamlined the data analysis process of photovoltaic device characteristics and performance.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Graduate Student Instructor, Mathematical Analysis for Chemical Engineers
+      institution: University of Michigan
+      year: 2025
+      description:
+        - Developed and presented detailed homework solutions and lectures, consistently receiving strong student and instructor evaluations.
+        - Provided critical support through office hours and oversaw exam administration and logistics.
+    - title: Validation Engineering Intern
+      institution: AstraZeneca, Mt. Vernon, IN
+      year: 2021
+      description:
+        - Employed the BIOVIA Discoverant data analysis software to compile an annual product quality report on two extensively produced active pharmaceutical ingredients.
+        - Designed a computer application using Tulip to provide intuitive instructions for equipment and process risk assessments for the engineering and operation teams.
+    - title: Resident Assistant
+      institution: Purdue University
+      year: 2020 - 2022
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Empowering Research with AI Award, AI Institutes at Michigan (AIIM)
+    - year: 2025
       items:
-        - Max Planck Medal
+        - Best Overall Poster Award, U-M Annual Data Science & AI Summit
+        - Michigan Institute for Computational Discovery & Engineering (MICDE) Fellowship
+        - 2nd Place, U-M Ross Business School Business+Tech Datathon
+    - year: 2021
+      items:
+        - 1st Place, College of Engineering Undergraduate Research Conference Award
+        - Research Grant, Office of Undergraduate Research
+        - Purdue Women in Engineering Program Scholarship
+        - Chemical Engineering Stephen Craig Outstanding Junior Award
+        - AstraZeneca Rising Star Award for initiative, innovation, and productivity
+    - year: 2018
+      items:
+        - Best Data & Evidence Award, First-Year Engineering Program Recycling Bin Separation Design
 
-- title: Academic Interests
-  type: nested_list
+- title: Leadership Experience
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Liaison to the Director
+      institution: Center for Simulation and Data Intensive Research in Chemical Engineering (CSiDIR-CHE), University of Michigan
+      year: 2023 - 2024
+    - title: Engineering Peer Mentor
+      institution: Women in Engineering Program & Boiler Student Network, Purdue University
+      year: 2020
+    - title: Events Planning Chair
+      institution: UR Multicultural Connections, Purdue University
+      year: 2020 - 2021
+    - title: Officer, Student Relation & Faculty Relation Committee
+      institution: Purdue AIChE
+      year: 2020
+    - title: Vice President
+      institution: Wiley Resident Hall Club, Purdue University
+      year: 2019 - 2020
 
-- title: Other Interests
+- title: Technical Skills
+  type: list_groups
+  contents:
+    - category: Programming Languages & Software
+      icon: fa-solid fa-code
+      items:
+        - name: Python
+        - name: C++
+        - name: Bash
+        - name: Git
+        - name: Blender
+        - name: MPI
+        - name: OpenMP
+        - name: CUDA
+    - category: Machine Learning
+      icon: fa-solid fa-brain
+      items:
+        - name: Variational Autoencoder
+        - name: SBERT
+        - name: Graph Neural Networks
+        - name: Scikit-learn
+        - name: PyTorch
+    - category: Molecular Simulation
+      icon: fa-solid fa-atom
+      items:
+        - name: LAMMPS
+        - name: HOOMD-Blue
+        - name: OVITO
+        - name: VMD
+
+- title: Relevant Coursework
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Design and Analysis of Algorithms, Machine Learning, Parallel Computing, Numerical Linear Algebra, Simulation of Condensed Matter, Statistical & Irreversible Thermodynamics, Applied Math for Chemical Engineering, Big Data Management Tools

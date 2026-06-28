@@ -4,6 +4,4 @@ github_users:
 github_repos:
   - glotzerlab/hoomd-blue
   - LindseyLab-umich/chimes_lsq-LLfork
-  - melodyyzh/General_Utilities
-  - melodyyzh/MC_sim
-  - melodyyzh/MD_Ar_LAMMPS
+  - glotzerlab/xchimes

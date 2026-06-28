@@ -4,7 +4,7 @@
     "label": "Ph.D. Candidate in Chemical Engineering and Scientific Computing",
     "image": "",
     "email": "yiyuanmz@umich.edu",
-    "url": "https://melodyyzh.github.io",
+    "url": "",
     "summary": "Ph.D. candidate at the University of Michigan developing physics-informed machine-learned interaction models for the design and discovery of novel nanomaterials.",
     "location": {
       "city": "Ann Arbor",
@@ -113,7 +113,7 @@
     {
       "title": "2nd Place, Business+Tech Datathon",
       "date": "2025",
-      "awarder": ""
+      "awarder": "U-M Ross Business School"
     },
     {
       "title": "1st Place, Undergraduate Research Conference",
@@ -144,7 +144,7 @@
     {
       "title": "Best Data & Evidence Award, Recycling Bin Separation Design",
       "date": "2018",
-      "awarder": ""
+      "awarder": "First-Year Engineering Program"
     }
   ],
   "publications": [
