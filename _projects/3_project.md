@@ -16,5 +16,6 @@ During my undergraduate research in the Dou Group at Purdue University, I worked
 - Streamlined the data analysis pipeline for photovoltaic device characterization
 
 **Publications:**
-- Finkenauer, B., Zhang, Y. et al. *The Journal of Physical Chemistry C.* 2023. [DOI: 10.1021/acs.jpcc.2c06967](https://doi.org/10.1021/acs.jpcc.2c06967)
-- Zhang, Y. *The Journal of Purdue Undergraduate Research.* 2021. [DOI: 10.7771/2158-4052.1533](https://doi.org/10.7771/2158-4052.1533)
+
+- Finkenauer, B., Zhang, Y. et al. _The Journal of Physical Chemistry C._ 2023. [DOI: 10.1021/acs.jpcc.2c06967](https://doi.org/10.1021/acs.jpcc.2c06967)
+- Zhang, Y. _The Journal of Purdue Undergraduate Research._ 2021. [DOI: 10.7771/2158-4052.1533](https://doi.org/10.7771/2158-4052.1533)

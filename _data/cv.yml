@@ -62,7 +62,7 @@
   contents:
     - year: In prep.
       items:
-        - 'Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Machine-Learning Interaction Model for Anisotropic Interactions in Coarse-Grained Nanoparticles. Manuscript in preparation.'
+        - "Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Machine-Learning Interaction Model for Anisotropic Interactions in Coarse-Grained Nanoparticles. Manuscript in preparation."
     - year: 2025
       items:
         - 'Zhang, M. Y.*, Lee, S. K. A.*, Glotzer, S. C., and Lindsey, R. K. A Generalized Machine-Learning Framework for Developing Alchemical Many-Body Interaction Models for Polymer-Grafted Nanoparticles. <em>J. Chem. Theory Comput.</em> 2025, 21, 9853–9867. DOI: <a href="https://doi.org/10.1021/acs.jctc.5c00901" target="_blank" rel="noopener noreferrer">10.1021/acs.jctc.5c00901</a> (*equal contribution)'
@@ -78,15 +78,15 @@
   contents:
     - year: 2026
       items:
-        - 'Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Alchemical Machine-Learned Interaction Potential for Modeling Anisotropic Nanomaterial Interactions. Oral presentation, Materials Research Society, Spring 2026, Honolulu, HI.'
+        - "Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Alchemical Machine-Learned Interaction Potential for Modeling Anisotropic Nanomaterial Interactions. Oral presentation, Materials Research Society, Spring 2026, Honolulu, HI."
     - year: 2025
       items:
-        - 'Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Framework for Developing Alchemical Coarse-Grained Interaction Models for Self-Assembling Polymer-Grafted Nanoparticles. Oral presentation, Midwest Thermodynamics and Statistical Mechanics Conference, Summer 2025, Madison, WI.'
+        - "Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Framework for Developing Alchemical Coarse-Grained Interaction Models for Self-Assembling Polymer-Grafted Nanoparticles. Oral presentation, Midwest Thermodynamics and Statistical Mechanics Conference, Summer 2025, Madison, WI."
     - year: 2024
       items:
-        - 'Zhang, M. Y., Lee, S. K. A., Laubach, B., Glotzer, S. C., and Lindsey, R. K. Generating Nanomaterial Design Surfaces with Physics-Informed Machine Learning Models. Oral presentation, American Institute of Chemical Engineers, Fall 2024, San Diego, CA.'
-        - 'Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. Towards Mapping Nanomaterial Design Space with Physics-Informed Machine-Learned Models. Poster presentation, Midwest Thermodynamics and Statistical Mechanics Conference, Summer 2024, Ann Arbor, MI.'
-        - 'Zhang, M. Y., Lee, S. K. A., Laubach, B., Tsai, S., Anderson, J. A., Glotzer, S. C., and Lindsey, R. K. A Machine-Learning Strategy for the Physics-Informed Design of Nanomaterials Using ChIMES. Poster presentation, American Physical Society, Spring 2024, Minneapolis, MN.'
+        - "Zhang, M. Y., Lee, S. K. A., Laubach, B., Glotzer, S. C., and Lindsey, R. K. Generating Nanomaterial Design Surfaces with Physics-Informed Machine Learning Models. Oral presentation, American Institute of Chemical Engineers, Fall 2024, San Diego, CA."
+        - "Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. Towards Mapping Nanomaterial Design Space with Physics-Informed Machine-Learned Models. Poster presentation, Midwest Thermodynamics and Statistical Mechanics Conference, Summer 2024, Ann Arbor, MI."
+        - "Zhang, M. Y., Lee, S. K. A., Laubach, B., Tsai, S., Anderson, J. A., Glotzer, S. C., and Lindsey, R. K. A Machine-Learning Strategy for the Physics-Informed Design of Nanomaterials Using ChIMES. Poster presentation, American Physical Society, Spring 2024, Minneapolis, MN."
 
 - title: Professional Experience
   type: time_table
