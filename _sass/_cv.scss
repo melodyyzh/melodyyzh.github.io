@@ -23,7 +23,7 @@
 
 .cv-entry {
   display: grid;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: 150px 1fr;
   gap: 0 1.5rem;
   margin-bottom: 1.2rem;
 }
@@ -73,9 +73,9 @@
 
 .cv-map-row {
   display: grid;
-  grid-template-columns: 130px 1fr;
+  grid-template-columns: 160px 1fr;
   gap: 0 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.65rem;
   font-size: 0.875rem;
 }
 
@@ -85,6 +85,49 @@
 
 .cv-map-value {
   color: var(--global-text-color);
+
+  .email-line {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .copy-email {
+    border: none;
+    background: transparent;
+    color: var(--global-text-color);
+    cursor: pointer;
+    padding: 0.1rem 0.25rem;
+    line-height: 1;
+    font-size: 0.9rem;
+    transition: color 0.2s ease-in-out;
+
+    &:hover,
+    &.copied {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.cv-pdf-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+
+    i {
+      margin-right: 0.25rem;
+    }
+  }
 }
 
 /*****************************
@@ -97,6 +140,32 @@
 
   li {
     margin-bottom: 0.25rem;
+  }
+
+  &.cv-coursework {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem 1.5rem;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 0;
+      padding-left: 0.9rem;
+      position: relative;
+
+      &::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: var(--global-theme-color);
+      }
+    }
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 

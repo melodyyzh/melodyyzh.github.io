@@ -2,7 +2,7 @@
 layout: page
 title: Alchemical ML-IAM for Polymer-Grafted Nanoparticles
 description: A generalized machine-learning framework for developing alchemical many-body interaction models that capture how effective interactions between polymer-grafted nanoparticles depend on key physicochemical attributes, integrated with digital alchemy inverse design.
-img: assets/img/publication_preview/smd.gif
+img: assets/img/publication_preview/chimes_alchemical.jpg
 importance: 1
 category: research
 ---

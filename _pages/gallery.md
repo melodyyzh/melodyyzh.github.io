@@ -1,48 +1,69 @@
 ---
 layout: page
 title: Gallery
-description: A collection of my favorite images and figures.
+description: Photos from travel, landscapes, and everyday life outside research.
 permalink: /gallery/
 nav: false
-nav_order: 5
+nav_order: 6
 ---
 
-<div class="gallery">
-  <figure>
-    <img src="/assets/img/1.jpg" alt="Description of Image 1">
-    <figcaption>Short description for Image 1.</figcaption>
-  </figure>
+{% assign photos = site.data.gallery.photos %}
+{% assign categories = photos | map: "category" | uniq %}
 
-  <figure>
-    <img src="/assets/img/2.jpg" alt="Description of Image 2">
-    <figcaption>Short description for Image 2.</figcaption>
-  </figure>
+<div class="life-gallery">
+  {% if site.data.gallery.intro %}
+    <p class="life-gallery-intro">{{ site.data.gallery.intro }}</p>
+  {% endif %}
 
-  <figure>
-    <img src="/assets/img/3.jpg" alt="Description of Image 3">
-    <figcaption>Short description for Image 3.</figcaption>
-  </figure>
+  <div class="life-gallery-filters" role="tablist" aria-label="Gallery categories">
+    <button type="button" class="life-filter active" data-filter="all">All</button>
+    {% for category in categories %}
+      <button type="button" class="life-filter" data-filter="{{ category | slugify }}">{{ category }}</button>
+    {% endfor %}
+  </div>
+
+  <div class="life-gallery-grid">
+    {% for photo in photos %}
+      <figure class="life-gallery-item" data-category="{{ photo.category | slugify }}">
+        <a href="{{ photo.file | prepend: '/assets/img/' | relative_url }}" class="life-gallery-link">
+          <img
+            src="{{ photo.file | prepend: '/assets/img/' | relative_url }}"
+            alt="{{ photo.title }}"
+            loading="lazy"
+            data-zoomable
+          >
+        </a>
+        <figcaption>
+          <span class="life-gallery-title">{{ photo.title }}</span>
+          {% if photo.caption %}
+            <span class="life-gallery-caption">{{ photo.caption }}</span>
+          {% endif %}
+        </figcaption>
+      </figure>
+    {% endfor %}
+  </div>
 </div>
 
-<style>
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  figure {
-    flex: 1 1 calc(33.333% - 40px);
-    margin: 0;
-    text-align: center;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  figcaption {
-    margin-top: 10px;
-    font-style: italic;
-    color: #666;
-  }
-</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var filters = document.querySelectorAll(".life-filter");
+    var items = document.querySelectorAll(".life-gallery-item");
+
+    filters.forEach(function (button) {
+      button.addEventListener("click", function () {
+        var filter = button.getAttribute("data-filter");
+
+        filters.forEach(function (b) {
+          b.classList.remove("active");
+        });
+        button.classList.add("active");
+
+        items.forEach(function (item) {
+          var category = item.getAttribute("data-category");
+          var show = filter === "all" || category === filter;
+          item.classList.toggle("is-hidden", !show);
+        });
+      });
+    });
+  });
+</script>

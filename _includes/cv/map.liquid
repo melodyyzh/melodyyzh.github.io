@@ -1,6 +1,23 @@
 {% for content in entry.contents %}
   <div class="cv-map-row">
     <span class="cv-map-key">{{ content.name }}</span>
-    <span class="cv-map-value">{{ content.value }}</span>
+    <span class="cv-map-value">
+      {% if content.name == 'Email' %}
+        <span class="email-line">
+          <span class="email-address">{{ content.value }}</span>
+          <button
+            type="button"
+            class="copy-email"
+            data-email="{{ content.value }}"
+            aria-label="Copy email"
+            title="Copy email"
+          >
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        </span>
+      {% else %}
+        {{ content.value }}
+      {% endif %}
+    </span>
   </div>
 {% endfor %}

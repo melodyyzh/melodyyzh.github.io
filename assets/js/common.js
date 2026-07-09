@@ -51,4 +51,33 @@ $(document).ready(function () {
       });
     }
   });
+
+  // copy email to clipboard
+  $(".copy-email").on("click", function () {
+    var $btn = $(this);
+    var email = $btn.data("email");
+    var original = $btn.html();
+
+    function markCopied() {
+      $btn.addClass("copied");
+      $btn.html('<i class="fa-solid fa-check"></i>');
+      $btn.attr("title", "Copied!");
+      setTimeout(function () {
+        $btn.removeClass("copied");
+        $btn.html(original);
+        $btn.attr("title", "Copy email");
+      }, 2000);
+    }
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(email).then(markCopied);
+    } else {
+      var $temp = $("<input>");
+      $("body").append($temp);
+      $temp.val(email).select();
+      document.execCommand("copy");
+      $temp.remove();
+      markCopied();
+    }
+  });
 });

@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Melody
 middle_name: Yiyuan
 last_name: Zhang
-email: yiyuanmz@umich.edu
+email: # shown as text under social icons via contact_note (not as an icon)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Melody Yiyuan Zhang — Ph.D. Candidate in Chemical Engineering and Scientific Computing at the University of Michigan.
 footer_text: >
@@ -106,6 +106,8 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
+  <span class="email-line">Email: <span class="email-address">yiyuanmz@umich.edu</span>
+  <button type="button" class="copy-email" data-email="yiyuanmz@umich.edu" aria-label="Copy email" title="Copy email"><i class="fa-regular fa-copy"></i></button></span>
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -124,8 +126,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: 
+blog_name: Blog
+blog_description: Photos, travel notes, and life outside the lab.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -133,7 +135,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -278,8 +280,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: [] # these categories will be displayed on the front page of your blog
+display_tags: []
+display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

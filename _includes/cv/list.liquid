@@ -1,4 +1,4 @@
-<ul class="cv-list">
+<ul class="cv-list{% if entry.title == 'Relevant Coursework' %} cv-coursework{% endif %}">
   {% for content in entry.contents %}
     <li>{{ content }}</li>
   {% endfor %}

@@ -1,0 +1,53 @@
+intro: >
+  Outside the lab, I spend a lot of time outdoors and behind a camera —
+  landscapes, travel, architecture, and small everyday moments.
+
+photos:
+  - file: 1.jpg
+    title: Mountain Road
+    caption: Winding road into a stone tunnel
+    category: Landscapes
+  - file: 2.jpg
+    title: Autumn Fall
+    caption: Falling leaves in soft forest light
+    category: Details
+  - file: 3.jpg
+    title: Spring Tips
+    caption: Fresh conifer tips in hand
+    category: Details
+  - file: 4.jpg
+    title: Coastal Sunset
+    caption: Waves breaking over rocks at golden hour
+    category: Landscapes
+  - file: 5.jpg
+    title: Still Water
+    caption: Yellow kayak on a mirrored mountain lake
+    category: Landscapes
+  - file: 6.jpg
+    title: Cappadocia Morning
+    caption: Hot air balloons over fairy chimneys
+    category: Travel
+  - file: 7.jpg
+    title: Mountain Silhouette
+    caption: Twilight gradient over a ridgeline
+    category: Landscapes
+  - file: 8.jpg
+    title: Green Door
+    caption: Minimal facade with matching window and door
+    category: Architecture
+  - file: 9.jpg
+    title: Notebook & Coffee
+    caption: Quiet morning workspace
+    category: Details
+  - file: 10.jpg
+    title: Flatiron
+    caption: Looking up at New York's Flatiron Building
+    category: Architecture
+  - file: 11.jpg
+    title: San Francisco Hill
+    caption: Steep street toward the Transamerica Pyramid
+    category: Travel
+  - file: 12.jpg
+    title: Morning Steam
+    caption: Coffee and soft morning light
+    category: Details

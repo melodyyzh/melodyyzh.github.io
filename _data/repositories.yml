@@ -1,7 +1,27 @@
-github_users:
-  - melodyyzh
+github_profile:
+  username: melodyyzh
+  name: Melody (Yiyuan) Zhang
+  url: https://github.com/melodyyzh
+  bio: Ph.D. Candidate in Chemical Engineering and Scientific Computing
 
 github_repos:
-  - glotzerlab/hoomd-blue
-  - LindseyLab-umich/chimes_lsq-LLfork
-  - glotzerlab/xchimes
+  - name: HOOMD-blue
+    full_name: glotzerlab/hoomd-blue
+    url: https://github.com/glotzerlab/hoomd-blue
+    description: Molecular dynamics and Monte Carlo soft matter simulation on GPUs.
+    language: C++
+    role: Contributor
+
+  - name: ChIMES
+    full_name: LindseyLab-umich/chimes_lsq-LLfork
+    url: https://github.com/LindseyLab-umich/chimes_lsq-LLfork
+    description: Tools to develop ChIMES machine-learned interaction model parameter sets.
+    language: C++ / Python
+    role: Contributor
+
+  - name: xChIMES
+    full_name: glotzerlab/xchimes
+    url: https://github.com/glotzerlab/xchimes
+    description: Extended ChIMES workflows for nanomaterial interaction modeling and design.
+    language: Python
+    role: Contributor

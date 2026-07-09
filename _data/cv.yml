@@ -7,59 +7,105 @@
       value: yiyuanmz@umich.edu
     - name: Research Areas
       value: Machine-Learned Interaction Models, Coarse-Grained Nanomaterials, Molecular Simulation, Scientific Computing
+    - name: Technical Skills
+      value: "<strong>Programming & HPC:</strong> Python, C++, Bash, Git, MPI, OpenMP, CUDA<br><strong>Machine Learning:</strong> Variational Autoencoders, SBERT, Graph Neural Networks, scikit-learn, PyTorch<br><strong>Molecular Simulation & Visualization:</strong> LAMMPS, HOOMD-blue, OVITO, VMD, Blender"
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Chemical Engineering and Scientific Computing
       institution: University of Michigan, Ann Arbor, MI
-      year: 2022 - 2027 (expected)
+      year: Expected May 2027
       description:
-        - "GPA: 3.86"
+        - "GPA: 3.81"
         - "Advisors: Prof. Rebecca K. Lindsey and Prof. Sharon C. Glotzer"
     - title: B.S. in Chemical Engineering
       institution: Purdue University, West Lafayette, IN
-      year: 2018 - 2022
+      year: May 2022
       description:
         - "GPA: 3.82"
+
+- title: Relevant Coursework
+  type: list
+  contents:
+    - Design and Analysis of Algorithms
+    - Machine Learning
+    - Parallel Computing
+    - Numerical Linear Algebra
+    - Simulation of Condensed Matter
+    - Statistical & Irreversible Thermodynamics
+    - Applied Math for Chemical Engineering
+    - Big Data Management Tools
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Graduate Student Research Assistant
       institution: Lindsey Group & Glotzer Group, University of Michigan
-      year: 2022 - present
+      year: Oct. 2022 – Present
       description:
-        - Extended the machine-learned interaction model (ML-IAM), ChIMES, to describe how effective interactions between polymer-grafted nanoparticles depend on key physicochemical attributes, and integrated the model with digital alchemy inverse design for efficient optimization of particle attributes towards target self-assembled structures.
-        - Designed a generalized ML-IAM framework that models anisotropic interactions for nanoparticles with convex shapes, enabling broad applicability to nanomaterial systems.
-        - Developed an adaptive parallel meshing algorithm for training data generation that reduces required data volume by ~100x by focusing on key features of the target potential energy surface.
-        - Contributed to the development and improvement of state-of-the-art machine-learning and simulation software, including ChIMES, HOOMD-Blue, and Freud.
+        - Extended the machine-learned interaction model (ML-IAM), ChIMES, to describe how effective interactions between polymer-grafted nanoparticles depend on key physicochemical attributes.
+        - Integrated the extended ChIMES model with digital alchemy inverse design for efficient optimization of particle attributes toward target self-assembled structures.
+        - Designed a generalized ML-IAM framework that models anisotropic interactions for anisotropic nanoparticles with convex shapes, enabling broad applicability to nanomaterial systems.
+        - Developed an adaptive parallel meshing algorithm for training data generation that reduces required data volume by ~100× by focusing on key features of the target potential energy surface.
+        - Contributed to the development and improvement of state-of-the-art machine-learning and simulation software, including ChIMES, HOOMD-blue, and freud.
     - title: Undergraduate Research Assistant
       institution: Dou Group, Purdue University
-      year: 2020 - 2022
+      year: Jan. 2020 – May 2022
       description:
         - Modified the surface of formamidinium-based perovskites using synthesized ligands to passivate defects and kinetically trap the photovoltaic crystal phase.
         - Incorporated amine-thiol chemistry in the perovskite layer and achieved a power conversion efficiency (PCE) of 20.1% and improved stability under ambient conditions.
         - Streamlined the data analysis process of photovoltaic device characteristics and performance.
 
+- title: Research Publications
+  type: time_table
+  contents:
+    - year: In prep.
+      items:
+        - 'Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Machine-Learning Interaction Model for Anisotropic Interactions in Coarse-Grained Nanoparticles. Manuscript in preparation.'
+    - year: 2025
+      items:
+        - 'Zhang, M. Y.*, Lee, S. K. A.*, Glotzer, S. C., and Lindsey, R. K. A Generalized Machine-Learning Framework for Developing Alchemical Many-Body Interaction Models for Polymer-Grafted Nanoparticles. <em>J. Chem. Theory Comput.</em> 2025, 21, 9853–9867. DOI: <a href="https://doi.org/10.1021/acs.jctc.5c00901" target="_blank" rel="noopener noreferrer">10.1021/acs.jctc.5c00901</a> (*equal contribution)'
+    - year: 2023
+      items:
+        - 'Finkenauer, B., Zhang, Y., Ma, K., Turnley, J. W., Schulz, J., et al. Amine-Thiol/Selenol Chemistry for Efficient and Stable Perovskite Solar Cells. <em>J. Phys. Chem. C</em> 2023, 127, 930–938. DOI: <a href="https://doi.org/10.1021/acs.jpcc.2c06967" target="_blank" rel="noopener noreferrer">10.1021/acs.jpcc.2c06967</a>'
+    - year: 2021
+      items:
+        - 'Zhang, Y. Interface Engineering to Kinetically Trap the Photovoltaic Crystal Phase of Formamidinium Lead Iodide Perovskite. <em>Journal of Purdue Undergraduate Research</em> 2021, 11, Article 15. DOI: <a href="https://doi.org/10.7771/2158-4052.1533" target="_blank" rel="noopener noreferrer">10.7771/2158-4052.1533</a>'
+
+- title: Conference Presentations
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - 'Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Alchemical Machine-Learned Interaction Potential for Modeling Anisotropic Nanomaterial Interactions. Oral presentation, Materials Research Society, Spring 2026, Honolulu, HI.'
+    - year: 2025
+      items:
+        - 'Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. A Generalized Framework for Developing Alchemical Coarse-Grained Interaction Models for Self-Assembling Polymer-Grafted Nanoparticles. Oral presentation, Midwest Thermodynamics and Statistical Mechanics Conference, Summer 2025, Madison, WI.'
+    - year: 2024
+      items:
+        - 'Zhang, M. Y., Lee, S. K. A., Laubach, B., Glotzer, S. C., and Lindsey, R. K. Generating Nanomaterial Design Surfaces with Physics-Informed Machine Learning Models. Oral presentation, American Institute of Chemical Engineers, Fall 2024, San Diego, CA.'
+        - 'Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. Towards Mapping Nanomaterial Design Space with Physics-Informed Machine-Learned Models. Poster presentation, Midwest Thermodynamics and Statistical Mechanics Conference, Summer 2024, Ann Arbor, MI.'
+        - 'Zhang, M. Y., Lee, S. K. A., Laubach, B., Tsai, S., Anderson, J. A., Glotzer, S. C., and Lindsey, R. K. A Machine-Learning Strategy for the Physics-Informed Design of Nanomaterials Using ChIMES. Poster presentation, American Physical Society, Spring 2024, Minneapolis, MN.'
+
 - title: Professional Experience
   type: time_table
   contents:
-    - title: Graduate Student Instructor, Mathematical Analysis for Chemical Engineers
-      institution: University of Michigan
-      year: 2025
+    - title: Advanced Modeling and AI Solutions Intern
+      institution: Micron Technology, Boise, ID
+      year: May – Aug. 2026
       description:
-        - Developed and presented detailed homework solutions and lectures, consistently receiving strong student and instructor evaluations.
-        - Provided critical support through office hours and oversaw exam administration and logistics.
+        - Designed a material search agent that unifies naming conventions across multiple databases and intelligently interprets non-canonical user queries.
+        - Integrated automated data retrieval with process and structural modeling software, accelerating simulation setup and reducing manual engineering effort.
     - title: Validation Engineering Intern
       institution: AstraZeneca, Mt. Vernon, IN
-      year: 2021
+      year: May – July 2021
       description:
-        - Employed the BIOVIA Discoverant data analysis software to compile an annual product quality report on two extensively produced active pharmaceutical ingredients.
+        - Employed the BIOVIA Discoverant data analysis software to compile an annual product quality report on two extensively produced active pharmaceutical ingredients in the company.
         - Designed a computer application using Tulip to provide intuitive instructions for equipment and process risk assessments for the engineering and operation teams.
     - title: Resident Assistant
       institution: Purdue University
-      year: 2020 - 2022
+      year: Nov. 2020 – May 2022
 
 - title: Honors and Awards
   type: time_table
@@ -71,68 +117,33 @@
       items:
         - Best Overall Poster Award, U-M Annual Data Science & AI Summit
         - Michigan Institute for Computational Discovery & Engineering (MICDE) Fellowship
-        - 2nd Place, U-M Ross Business School Business+Tech Datathon
+        - 2nd Place, U Michigan Ross Business+Tech Datathon
     - year: 2021
       items:
-        - 1st Place, College of Engineering Undergraduate Research Conference Award
-        - Research Grant, Office of Undergraduate Research
+        - 1st Place, College of Engineering Undergraduate Research Conference
+        - Research Grant, Office of Undergraduate Research, Purdue University
         - Purdue Women in Engineering Program Scholarship
         - Chemical Engineering Stephen Craig Outstanding Junior Award
         - AstraZeneca Rising Star Award for initiative, innovation, and productivity
-    - year: 2018
-      items:
-        - Best Data & Evidence Award, First-Year Engineering Program Recycling Bin Separation Design
 
 - title: Leadership Experience
   type: time_table
   contents:
     - title: Liaison to the Director
       institution: Center for Simulation and Data Intensive Research in Chemical Engineering (CSiDIR-CHE), University of Michigan
-      year: 2023 - 2024
+      year: 2023 – 2024
     - title: Engineering Peer Mentor
-      institution: Women in Engineering Program & Boiler Student Network, Purdue University
+      institution: Women in Engineering Program, Purdue University
+      year: 2020
+    - title: Engineering Peer Mentor
+      institution: Boiler Student Network, Purdue University
       year: 2020
     - title: Events Planning Chair
       institution: UR Multicultural Connections, Purdue University
-      year: 2020 - 2021
-    - title: Officer, Student Relation & Faculty Relation Committee
-      institution: Purdue AIChE
+      year: 2020 – 2021
+    - title: Purdue AIChE Officer
+      institution: Student Relations & Faculty Relations Committee
       year: 2020
     - title: Vice President
       institution: Wiley Resident Hall Club, Purdue University
-      year: 2019 - 2020
-
-- title: Technical Skills
-  type: list_groups
-  contents:
-    - category: Programming Languages & Software
-      icon: fa-solid fa-code
-      items:
-        - name: Python
-        - name: C++
-        - name: Bash
-        - name: Git
-        - name: Blender
-        - name: MPI
-        - name: OpenMP
-        - name: CUDA
-    - category: Machine Learning
-      icon: fa-solid fa-brain
-      items:
-        - name: Variational Autoencoder
-        - name: SBERT
-        - name: Graph Neural Networks
-        - name: Scikit-learn
-        - name: PyTorch
-    - category: Molecular Simulation
-      icon: fa-solid fa-atom
-      items:
-        - name: LAMMPS
-        - name: HOOMD-Blue
-        - name: OVITO
-        - name: VMD
-
-- title: Relevant Coursework
-  type: list
-  contents:
-    - Design and Analysis of Algorithms, Machine Learning, Parallel Computing, Numerical Linear Algebra, Simulation of Condensed Matter, Statistical & Irreversible Thermodynamics, Applied Math for Chemical Engineering, Big Data Management Tools
+      year: Aug. 2019 – 2020

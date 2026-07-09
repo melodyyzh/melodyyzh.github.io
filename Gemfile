@@ -18,10 +18,11 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'sass-embedded', '~> 1.80.0'
+    gem 'sass-embedded'
 end
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
+    gem 'ostruct' # required on Ruby 4+ (no longer a default gem)
 end
