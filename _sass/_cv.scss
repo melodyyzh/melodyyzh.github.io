@@ -1,23 +1,144 @@
 /*****************************
- * CV shared styles
+ * CV section headings
  *****************************/
 
-div.container-link-button {
-  margin-right: 0.5rem;
+.cv-section {
+  margin-bottom: 2.5rem;
 }
 
-table.table-cv {
-  background-color: transparent !important;
+.cv-section-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--global-text-color-light);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
 }
+
+/*****************************
+ * CV time table
+ *****************************/
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.cv-year {
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  padding-top: 0.1rem;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.cv-title {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.15rem;
+}
+
+.cv-institution {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.3rem;
+}
+
+.cv-items {
+  margin: 0.4rem 0 0 1rem;
+  padding: 0;
+  font-size: 0.82rem;
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.cv-subitems {
+  margin: 0.25rem 0 0 1rem;
+  padding: 0;
+}
+
+.cv-item-title {
+  font-weight: 600;
+}
+
+/*****************************
+ * CV map (key-value)
+ *****************************/
+
+.cv-map-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 0 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.cv-map-key {
+  font-weight: 600;
+}
+
+.cv-map-value {
+  color: var(--global-text-color);
+}
+
+/*****************************
+ * CV list
+ *****************************/
+
+.cv-list {
+  font-size: 0.875rem;
+  padding-left: 1.25rem;
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+/*****************************
+ * CV skill groups
+ *****************************/
+
+.cv-skill-groups {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem 2.5rem;
+}
+
+.cv-skill-group {
+  min-width: 180px;
+}
+
+.cv-skill-category {
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: var(--global-theme-color);
+  margin-bottom: 0.3rem;
+
+  i {
+    margin-right: 0.3rem;
+  }
+}
+
+.cv-skill-items {
+  font-size: 0.82rem;
+  color: var(--global-text-color);
+}
+
+/*****************************
+ * CV button (kept for compatibility)
+ *****************************/
 
 a.btncv {
   color: var(--global-text-color) !important;
   border: 1px solid var(--global-text-color) !important;
   border-radius: 0.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding: 0.25rem 1rem;
   text-decoration: none;
   font-weight: 400;
   font-size: 0.7rem;
@@ -25,191 +146,10 @@ a.btncv {
   vertical-align: middle;
   text-transform: uppercase;
   white-space: nowrap;
+
+  &:hover {
+    color: var(--global-theme-color) !important;
+    border-color: var(--global-theme-color) !important;
+    text-decoration: none !important;
+  }
 }
-
-a.btncv:hover {
-  color: var(--global-theme-color) !important;
-  border-color: var(--global-theme-color) !important;
-  text-decoration: none !important;
-}
-
-/*****************************
- * CV TIME_TABLE styles
- *****************************/
-
-p.location {
-  font-size: 0.7rem;
-  white-space: nowrap;
-}
-
-i.iconlocation {
-  color: var(--global-theme-color);
-  font-size: 0.8rem;
-}
-
-i.iconinstitution {
-  color: var(--global-theme-color);
-  font-size: 0.95rem;
-  margin-right: 0.3rem;
-}
-
-i.icondepartment {
-  color: var(--global-theme-color);
-  font-size: 0.8rem;
-  margin-right: 0.3rem;
-}
-
-table.institution {
-  margin-bottom: 1rem;
-}
-
-td.department {
-  font-size: 0.8rem;
-}
-
-div.container-links {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-/*****************************
- * CV MAP styles
- *****************************/
-
-div.container-pdf {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-/*****************************
- * CV LIST_GROUPS styles
- *****************************/
-
-div.list-groups {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  flex-direction: row;
-  align-content: center;
-}
-
-div.list-group {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-}
-
-td.list-group-category {
-  color: var(--global-theme-color);
-  margin-bottom: 0.5rem;
-}
-
-td.list-group-category-icon {
-  font-size: 0.8rem;
-  color: var(--global-theme-color);
-  width: 1.4rem;
-  padding-right: 0.4rem;
-}
-
-td.list-group-name {
-  font-size: 0.8rem;
-}
-
-td.list-group-level {
-  font-size: 0.8rem;
-  padding-left: 0.5rem;
-}
-
-td.list-group-school {
-  font-size: 0.7rem;
-  padding-left: 0.5rem;
-  text-align: center;
-}
-
-p.list-group-time {
-  font-size: 0.7rem;
-  padding-left: 0.5rem;
-}
-
-td.list-group-link {
-  padding-left: 0.5rem;
-}
-
-/*****************************
- * CV TOC styles
- *****************************/
-
-a.anchor {
-  display: block;
-  position: relative;
-  top: -50px;
-  visibility: hidden;
-}
-
-ul.timeline {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-ul.timeline li {
-  position: relative;
-  min-height: 2.2rem;
-  color: var(--global-text-color);
-  list-style-position: inside;
-}
-
-span.badge-toc {
-  color: var(--global-bg-color);
-  background-color: var(--global-theme-color);
-  border-radius: 0.125rem;
-  padding: 0.125rem 0.5rem 0.125rem 0.5rem;
-  font-weight: 700 !important;
-  display: inline-block;
-  inline-size: fit-content;
-}
-
-ul.timeline li::before {
-  content: "";
-  min-height: 2.5rem;
-  width: 1px;
-  background: var(--global-text-color);
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 2px;
-  top: -0.5rem;
-}
-
-/*ul.timeline::before {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: 0.4rem;
-     color: var(--global-text-color);
-}
- ul.timeline::after {
-     content: "●";
-     font-size: 1em;
-     display: inline-block;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: -2px;
-     top: -1rem;
-     color: var(--global-text-color);
-}
-*/
