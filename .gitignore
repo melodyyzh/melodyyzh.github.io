@@ -1,4 +1,5 @@
 _site
+local_preview
 .bundle
 .sass-cache
 .jekyll-cache

@@ -126,7 +126,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog
-blog_description: Photos, travel notes, and life outside the lab.
+blog_description: Notes from research, industry, and life along the way.
 permalink: /blog/:year/:title/
 
 # Pagination
