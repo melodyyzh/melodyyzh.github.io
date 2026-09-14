@@ -9,8 +9,6 @@ tags: [scientific communication]
 
 I was excited to serve as a Meeting Scene Reporter at the Materials Research Society (MRS) Spring 2026 Meeting, highlighting symposium talks and making emerging materials research more accessible to a broader audience.
 
-{% include figure.liquid path="assets/img/mrs_logo.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Materials Research Society" %}
-
 Pieces I covered:
 
 1. [AI-Driven Integration of Molecular Modeling and Experimental Data](https://mrsmeetingscene.substack.com/p/symposium-mt04-from-atoms-to-algorithmsmachine). *MRS Meeting Scene*, Symposium MT04, 2026.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Starting at Micron AMAIS
-date: 2026-05-12 10:00:00
+date: 2026-05-18 10:00:00
 description: Beginning my internship with Micron's Advanced Modeling and AI Solutions team.
 thumbnail: assets/img/micron.jpg
 tags: internship industry AI
