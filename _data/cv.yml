@@ -88,6 +88,19 @@
         - "Zhang, M. Y., Lee, S. K. A., Glotzer, S. C., and Lindsey, R. K. Towards Mapping Nanomaterial Design Space with Physics-Informed Machine-Learned Models. Poster presentation, Midwest Thermodynamics and Statistical Mechanics Conference, Summer 2024, Ann Arbor, MI."
         - "Zhang, M. Y., Lee, S. K. A., Laubach, B., Tsai, S., Anderson, J. A., Glotzer, S. C., and Lindsey, R. K. A Machine-Learning Strategy for the Physics-Informed Design of Nanomaterials Using ChIMES. Poster presentation, American Physical Society, Spring 2024, Minneapolis, MN."
 
+- title: Science Writing & Communication
+  type: time_table
+  contents:
+    - title: Meeting Scene Reporter
+      institution: Materials Research Society (MRS)
+      year: 2026
+      description:
+        - '<a href="https://mrsmeetingscene.substack.com/p/symposium-mt04-from-atoms-to-algorithmsmachine" target="_blank" rel="noopener noreferrer">AI-Driven Integration of Molecular Modeling and Experimental Data</a>. <em>MRS Meeting Scene</em>, Symposium MT04, 2026.'
+        - '<a href="https://mrsmeetingscene.substack.com/p/symposium-mt02-automated-materials" target="_blank" rel="noopener noreferrer">Accelerating Battery Materials Discovery with AI- and Physics-Powered Molecular Universe Platform</a>. <em>MRS Meeting Scene</em>, Symposium MT02, 2026.'
+        - '<a href="https://mrsmeetingscene.substack.com/p/symposium-mt04-from-atoms-to-algorithmsmachine-1cd" target="_blank" rel="noopener noreferrer">Solvation Structure Modulation in Aqueous Electrolytes: Stabilizing Pyrazine Radicals and Facilitating Electrochemical Nitrate Reduction</a>. <em>MRS Meeting Scene</em>, Symposium MT04, 2026.'
+        - Bespoke Machine-Learned Interatomic Potentials — Pushing the Limits of Accuracy and Efficiency. <em>MRS Meeting Scene</em>, Symposium MT03, 2026.
+        - Optimization Method of Monomer Composites' Ratio Leading to the Best Polymer Property by Using Machine Learning Method and Quasi-Quantum Computing Method. <em>MRS Meeting Scene</em>, Symposium MT04, 2026.
+
 - title: Professional Experience
   type: time_table
   contents:
