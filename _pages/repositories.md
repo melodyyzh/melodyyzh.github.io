@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Repositories
 description: Open-source software I contribute to for molecular simulation and machine-learned interaction models.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 {% assign profile = site.data.repositories.github_profile %}
